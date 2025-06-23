@@ -1,0 +1,95 @@
+
+
+*{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    margin:0;
+    background-color: white;;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0.3px 9px grey;
+    padding:10px;
+    flex-wrap: wrap;
+
+    /*background-color: azure;*/
+}
+.nav-items a{
+    text-decoration: none;
+    color:black;
+    display:inline-block;
+    margin:0px 8px;
+    
+    border:3px solid white;
+
+}
+.nav-items a:hover{
+    border-bottom: 3px solid rgb(70, 8, 227);
+    
+    
+}
+
+.section1{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:600px;
+    
+}
+.colum1,.colum2{
+    width:800px;
+    height: 500px;
+    display: inline-block;
+    margin:auto;
+   
+}
+
+.colum2{
+    background-image: url("jigar sadal.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    background-size: 400px;
+}
+.colum1 h1{
+    font-size:70px;
+}
+.colum1 {
+   display:flex;
+   justify-content: center;
+   align-items:center;
+
+}
+h3{
+    margin: 10px 0;
+}
+button{
+    width:150px;
+    margin:25px 0;
+    background-color: blue;
+    color:white;
+    padding:10px;
+    font-size:15px;
+    border-radius:25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: blue;
+    box-shadow: 0px 6px 40px rgb(0, 157, 255);
+
+
+
+}
+
+.section1 .colum1 div .sm{
+    padding:10px 20px;
+    background-color: rgb(8, 8, 11);
+    margin:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 100%;
+    color:white;
+
+}
